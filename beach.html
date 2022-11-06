@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BeachList</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="beachpage.css">
+    </head>
+    <body>
+        <h1 id="title"></h1>
+       
+        <a class="weatherwidget-io" href="https://forecast7.com/en/27d97n82d80/clearwater/" data-label_1="CLEARWATER" data-label_2="WEATHER" data-theme="original" >CLEARWATER WEATHER</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+       <h1 id="title">Beach PackList</h1>
+       <h2><input type="checkbox" class="checkbox"> Bathing Suit</h2>
+       <h2><input type="checkbox" class="checkbox"> Sandals</h2>
+       <h2><input type="checkbox" class="checkbox"> Towels</h2>
+       <h2><input type="checkbox" class="checkbox"> Sun Screen</h2>
+       <h2><input type="checkbox" class="checkbox"> Beach Ball</h2>
+       <h2><input type="checkbox" class="checkbox"> Folding Chair</h2>
+       <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="index.html">Home Page</a>
+                <a href="skipage.html">Ski Trip</a>
+                <a href="campPage.html">Camp Trip</a>
+                <a href="workPage.html">Work Trip</a>
+            </div>
+        </div>
+
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>
